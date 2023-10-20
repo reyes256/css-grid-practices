@@ -1,1 +1,0 @@
-import{_ as t,c as _,J as s,o}from"./entry.53ca7b14.js";const c={},n={class:"body"};function a(e,d){return o(),_("div",n,[s(e.$slots,"default",{},void 0,!0)])}const l=t(c,[["render",a],["__scopeId","data-v-54859e89"]]);export{l as default};
