@@ -1,7 +1,7 @@
 <template>
   <div class="h-full bg-gray-400 p-4">
     <h1 class="py-4 text-xl font-bold">Lista de Practicas</h1>
-    <div class="grid grid-cols-3 gap-4">
+    <div class="grid gap-4 sm:grid-cols-3">
       <div class="col-span-1 grid gap-4">
         <NuxtLink
           to="/basics"
@@ -13,11 +13,11 @@
           class="rounded-md bg-gray-100 p-4 hover:cursor-pointer hover:bg-gray-200"
           >Multi-Column Layout</NuxtLink
         >
-        <!-- <NuxtLink
-          to=""
+        <NuxtLink
+          to="/holygrail"
           class="rounded-md bg-gray-100 p-4 hover:cursor-pointer hover:bg-gray-200"
-          >holy-grail</NuxtLink
-        > -->
+          >The Holy Grail Layout</NuxtLink
+        >
         <!-- <NuxtLink
           to=""
           class="rounded-md bg-gray-100 p-4 hover:cursor-pointer hover:bg-gray-200"
